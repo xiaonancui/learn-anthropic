@@ -1,14 +1,14 @@
-# learn-anthropic 📚
+# Learn Anthropic
 
 > A structured, community-driven guide to everything Anthropic publishes.
 
-From research papers to engineering practices, model releases to safety policies — 390+ pages of Anthropic's public content, organized into a learnable knowledge system.
+**Current content:** 111 research papers · 23 engineering blogs · 198 news announcements · 16 legal documents · 9 events — **390 pages** total. Last updated 2026-04-11.
 
 ## Why This Exists
 
 Anthropic publishes high-quality content, but it's scattered across their website. Research papers, engineering blogs, and news announcements are mixed together with no learning path, no prioritization, and no connections between them. You might read a paper without knowing how it applies in practice.
 
-This project solves that problem.
+This project organizes their content into a more accessible, navigable structure.
 
 ## Content Structure
 
@@ -69,17 +69,6 @@ learn-anthropic/
 | Interpretability | [Series](research/interpretability/) | Understanding what's happening inside the model |
 | Computer Use | [Announcement](https://www.anthropic.com/news/developing-computer-use) | Letting Claude operate a computer |
 | Many-shot Jailbreaking | [Paper](https://www.anthropic.com/research/many-shot-jailbreaking) | Long-context jailbreak attacks |
-
-## Quick Stats
-
-| Section | Count | Last Updated |
-|---------|-------|--------------|
-| Research Papers | 111 | 2026-04-08 |
-| Engineering Blogs | 23 | 2026-04-10 |
-| News Announcements | 198 | 2026-04-10 |
-| Legal Terms | 16 | 2026-04-10 |
-| Events | 9 | 2026-04-11 |
-| **Total** | **390** | |
 
 ## Contributing
 
