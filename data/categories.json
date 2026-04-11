@@ -1,0 +1,156 @@
+{
+  "description": "Page categories for learn-anthropic",
+  "last_updated": "2026-04-11",
+  "categories": {
+    "research": {
+      "interpretability": [
+        "a-mathematical-framework-for-transformer-circuits",
+        "towards-monosemanticity-decomposing-language-models-with-dictionary-learning",
+        "decomposing-language-models-into-understandable-components",
+        "toy-models-of-superposition",
+        "distributed-representations-composition-superposition",
+        "superposition-memorization-and-double-descent",
+        "softmax-linear-units",
+        "privileged-bases-in-the-transformer-residual-stream",
+        "in-context-learning-and-induction-heads",
+        "features-as-classifiers",
+        "evaluating-feature-steering",
+        "crosscoder-model-diffing",
+        "interpretability-dreams",
+        "engineering-challenges-interpretability",
+        "open-source-circuit-tracing",
+        "tracing-thoughts-language-model",
+        "mapping-mind-language-model",
+        "emotion-concepts-function",
+        "assistant-axis"
+      ],
+      "circuits_updates": [
+        "circuits-updates-may-2023",
+        "circuits-updates-april-2024",
+        "circuits-updates-june-2024",
+        "circuits-updates-july-2024",
+        "circuits-updates-august-2024",
+        "circuits-updates-sept-2024"
+      ],
+      "alignment": [
+        "constitutional-ai-harmlessness-from-ai-feedback",
+        "collective-constitutional-ai-aligning-a-language-model-with-public-input",
+        "specific-versus-general-principles-for-constitutional-ai",
+        "sleeper-agents-training-deceptive-llms-that-persist-through-safety-training",
+        "probes-catch-sleeper-agents",
+        "alignment-faking",
+        "auditing-hidden-objectives",
+        "reward-tampering",
+        "sabotage-evaluations",
+        "shade-arena-sabotage-monitoring",
+        "agentic-misalignment",
+        "emergent-misalignment-reward-hacking",
+        "constitutional-classifiers",
+        "next-generation-constitutional-classifiers",
+        "prompt-injection-defenses",
+        "many-shot-jailbreaking",
+        "discovering-language-model-behaviors-with-model-written-evaluations",
+        "measuring-progress-on-scalable-oversight-for-large-language-models",
+        "measuring-faithfulness-in-chain-of-thought-reasoning",
+        "question-decomposition-improves-the-faithfulness-of-model-generated-reasoning",
+        "reasoning-models-dont-say-think",
+        "visible-extended-thinking",
+        "training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback",
+        "a-general-language-assistant-as-a-laboratory-for-alignment",
+        "trustworthy-agents",
+        "forecasting-rare-behaviors",
+        "disempowerment-patterns",
+        "introspection",
+        "values-wild",
+        "claude-character",
+        "persona-vectors",
+        "persona-selection-model",
+        "exploring-model-welfare",
+        "small-samples-poison",
+        "language-models-mostly-know-what-they-know",
+        "influence-functions",
+        "studying-large-language-model-generalization-with-influence-functions",
+        "scaling-laws-and-interpretability-of-learning-from-repeated-data"
+      ],
+      "evals": [
+        "evaluating-ai-systems",
+        "evaluating-and-mitigating-discrimination-in-language-model-decisions",
+        "measuring-model-persuasiveness",
+        "statistical-approach-to-model-evals",
+        "predictability-and-surprise-in-large-generative-models",
+        "swe-bench-sonnet",
+        "anthropic-interviewer",
+        "diff-tool",
+        "bloom",
+        "clio"
+      ],
+      "economics": [
+        "anthropic-economic-index-january-2026-report",
+        "anthropic-economic-index-september-2025-report",
+        "economic-index-march-2026-report",
+        "economic-index-geography",
+        "economic-index-primitives",
+        "economic-policy-responses",
+        "estimating-productivity-gains",
+        "impact-software-development",
+        "how-ai-is-transforming-work-at-anthropic",
+        "AI-fluency-index",
+        "AI-assistance-coding-skills",
+        "india-brief-economic-index",
+        "labor-market-impacts",
+        "how-australia-uses-claude",
+        "vibe-physics"
+      ],
+      "agents": [
+        "building-effective-agents",
+        "measuring-agent-autonomy",
+        "building-ai-cyber-defenders",
+        "confidential-inference-trusted-vms",
+        "end-subset-conversations",
+        "towards-measuring-the-representation-of-subjective-global-opinions-in-language-models",
+        "long-running-Claude",
+        "project-fetch-robot-dog",
+        "project-vend-1",
+        "project-vend-2"
+      ]
+    },
+    "engineering": {
+      "agents": [
+        "building-effective-agents",
+        "advanced-tool-use",
+        "writing-tools-for-agents",
+        "effective-context-engineering-for-ai-agents",
+        "multi-agent-research-system",
+        "managed-agents",
+        "effective-harnesses-for-long-running-agents",
+        "harness-design-long-running-apps",
+        "demystifying-evals-for-ai-agents"
+      ],
+      "claude_code": [
+        "claude-code-best-practices",
+        "claude-code-auto-mode",
+        "claude-code-sandboxing"
+      ],
+      "tools_and_mcp": [
+        "claude-think-tool",
+        "code-execution-with-mcp",
+        "desktop-extensions"
+      ],
+      "retrieval": [
+        "contextual-retrieval"
+      ],
+      "evals": [
+        "eval-awareness-browsecomp",
+        "AI-resistant-technical-evaluations",
+        "swe-bench-sonnet"
+      ],
+      "infrastructure": [
+        "infrastructure-noise",
+        "a-postmortem-of-three-recent-issues"
+      ],
+      "other": [
+        "building-c-compiler"
+      ]
+    }
+  }
+}
