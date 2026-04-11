@@ -1,62 +1,62 @@
 # Contributing to learn-anthropic
 
-感谢你有兴趣贡献！
+Thank you for your interest in contributing!
 
-## 怎么贡献
+## How to Contribute
 
-### 最简单的：补充一句话摘要
+### The Simplest Way: Add One-Line Summaries
 
-每篇论文/文章都应该有一句话说明"这篇在讲什么"。如果你读过某篇，直接改对应的文件，加一句话就行。
+Each paper or article should have a one-line summary explaining what it covers. If you've read one, simply edit the corresponding file and add your summary.
 
-### 发现缺失页面
+### Find Missing Pages
 
-运行 `scripts/fetch-sitemap.sh` 对比当前数据，如果发现新的页面，提交 PR 更新 `data/sitemap.json`。
+Run `scripts/fetch-sitemap.sh` to compare against the current dataset. If you discover new pages, submit a PR updating `data/sitemap.json`.
 
-### 写深度解读
+### Write In-Depth Analysis
 
-如果你对某篇论文或某个系列有深入理解，欢迎写解读。格式参考 `research/interpretability/` 下的模板。
+If you have deep understanding of a paper or series, we welcome your analysis. See the templates in `research/interpretability/` for formatting guidance.
 
-### 改进学习路径
+### Improve the Learning Path
 
-你觉得学习路径的顺序不对？某个概念应该放在更前面？直接提 issue 讨论。
+Think the learning sequence needs adjustment? A concept should be introduced earlier? Open an issue to discuss.
 
-## 目录规范
+## Directory Conventions
 
-- `research/` 下按主题分类，文件名用页面 slug
-- `engineering/` 下按系列分文件，多个页面合并在一个 md 里
-- `news/` 下只收录有学习价值的，纯商业公告不单独建文件
-- 每个文件开头用 YAML frontmatter 标注元数据
+- `research/` — Organized by topic; filenames use page slugs
+- `engineering/` — Organized by series; multiple pages may be combined in a single file
+- `news/` — Only include entries with educational value; pure commercial announcements are omitted
+- Each file begins with YAML frontmatter containing metadata
 
-## 文件模板
+## File Template
 
 ```markdown
 ---
-title: 论文/文章标题
+title: Paper or Article Title
 url: https://www.anthropic.com/research/xxx
 date: YYYY-MM-DD
 tags: [tag1, tag2]
 ---
 
-## 一句话
+## One-Liner
 
-这篇在讲什么——一句话版本。
+What this covers — the one-line version.
 
-## 要点
+## Key Points
 
-- 要点 1
-- 要点 2
+- Point 1
+- Point 2
 
-## 关联
+## Related
 
-- 相关论文/文章链接
+- Links to related papers or articles
 ```
 
-## 不做什么
+## What We Don't Do
 
-- ❌ 不复制 Anthropic 的原始内容
-- ❌ 不做论文翻译（只做摘要和解读）
-- ❌ 不收录非公开内容
+- ❌ We do not reproduce Anthropic's original content
+- ❌ We do not translate papers (summaries and analysis only)
+- ❌ We do not include non-public content
 
 ## License
 
-贡献采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可。
+Contributions are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
