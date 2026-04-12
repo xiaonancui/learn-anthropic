@@ -2,11 +2,11 @@
 
 > A structured, community-driven guide to everything Anthropic publishes.
 
-**Current content:** 111 research papers · 23 engineering blogs · 198 news announcements · 100 tutorials · 16 legal documents · 9 events — **490 pages** total. Last updated 2026-04-12.
+**Current content:** 111 research papers · 23 engineering blogs · 198 news announcements · 100 tutorials · 16 courses · 86 use cases · 16 legal documents · 9 events — **592 pages** total.
 
 ## Why This Exists
 
-Anthropic publishes high-quality content, but it's scattered across their websites (anthropic.com and claude.com). Research papers, engineering blogs, news announcements, and tutorials are mixed together with no learning path, no prioritization, and no connections between them. You might read a paper without knowing how it applies in practice.
+Anthropic publishes high-quality content, but it's scattered across their websites (anthropic.com and claude.com). Research papers, engineering blogs, news announcements, tutorials, courses, and use cases are mixed together with no learning path, no prioritization, and no connections between them. You might read a paper without knowing how it applies in practice.
 
 This project organizes their content into a more accessible, navigable structure.
 
@@ -46,15 +46,25 @@ learn-anthropic/
 │   ├── marketing/                 # Marketing workflows (1)
 │   ├── hr/                        # Human resources (1)
 │   └── sales/                     # Sales workflows (1)
-├── sitemap.json                   # Combined local sitemap (primary reference)
-├── data/                          # Raw data
-│   ├── default-sitemap.json       # anthropic.com sitemap (raw)
-│   └── categories.json            # Category mappings
-└── scripts/                       # Utility scripts
-    ├── fetch-sitemap.sh           # Update anthropic.com sitemap
-    ├── generate_content.py        # Generate research/engineering markdown files
-    ├── generate_tutorials.py      # Generate tutorial markdown files
-    └── generate_local_sitemap.py  # Generate combined local sitemap
+├── courses/                       # Claude courses from claude.com (16)
+│   ├── engineering/               # API, Claude Code, MCP (9)
+│   ├── professional/              # AI Fluency, Claude Cowork (3)
+│   ├── education/                 # AI Fluency for educators & students (3)
+│   └── nonprofits/                # AI Fluency for nonprofits (1)
+├── use-cases/                     # Claude use cases from claude.com (86)
+│   ├── professional/              # Business workflows (17)
+│   ├── personal/                  # Personal productivity (16)
+│   ├── nonprofits/                # Nonprofit workflows (12)
+│   ├── education/                 # Education scenarios (11)
+│   ├── finance/                   # Financial workflows (6)
+│   ├── claude-in-chrome/          # Browser-based workflows (6)
+│   ├── sales/                     # Sales workflows (4)
+│   ├── legal/                     # Legal workflows (4)
+│   ├── research/                  # Research workflows (4)
+│   ├── marketing/                 # Marketing workflows (3)
+│   ├── life-sciences/             # Life sciences workflows (2)
+│   └── hr/                        # Human resources (1)
+└── sitemap.json                   # Combined local sitemap (primary reference)
 ```
 
 ## Sources
@@ -62,27 +72,29 @@ learn-anthropic/
 | Source | Pages | Description |
 |--------|-------|-------------|
 | anthropic.com | 390 | Research, engineering, news, legal, events |
-| claude.com | 100 | Tutorials and how-to guides |
-| **Total** | **490** | |
+| claude.com — Tutorials | 100 | How-to guides and workflows |
+| claude.com — Courses | 16 | Structured learning paths |
+| claude.com — Use Cases | 86 | Practical application examples |
+| **Total** | **592** | |
 
 ## Learning Path
 
 ### Getting Started (1–2 days)
 1. [The Claude Constitution](https://www.anthropic.com/constitution) — Understand Anthropic's core philosophy
 2. [Core Views on AI Safety](https://www.anthropic.com/news/core-views-on-ai-safety) — How they think about AI risk
-3. [Responsible Scaling Policy](https://www.anthropic.com/responsible-scaling-policy) — Quantified safety commitments
+3. [Claude 101](courses/professional/claude-101.md) — Get started with Claude
 
 ### Intermediate (1–2 weeks)
 4. [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — Agent design patterns
 5. [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) — Alignment methodology
-6. [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) — Engineering in practice
+6. [Claude Code 101](courses/engineering/claude-code-101.md) — Learn Claude Code
 7. [Getting Started with Claude.ai](tutorials/professional/getting-started-claude-ai.md) — Hands-on tutorial
 
 ### Deep Dive (ongoing)
 8. [Interpretability Series](research/interpretability/) — From Transformer circuits to monosemanticity
 9. [Agent Engineering Series](engineering/agents.md) — From tool design to long-running architectures
 10. [Safety & Red-Teaming Series](news/safety/) — From detection to defense
-11. [Finance Tutorials](tutorials/finance/) — Financial analysis workflows
+11. [Building with the Claude API](courses/engineering/building-with-claude-api.md) — 84-lesson deep dive
 
 ## Core Concepts Index
 
@@ -102,27 +114,9 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 **Where we need the most help right now:**
 - Adding one-line summaries to research papers
-- Adding key points to tutorials
+- Adding key points to tutorials, courses, and use cases
 - Adding technical keyword tags to engineering posts
 - Finding pages missing from the sitemap
-
-## Updating
-
-### Update anthropic.com sitemap
-```bash
-bash scripts/fetch-sitemap.sh
-```
-
-### Regenerate local sitemap (combines all sources)
-```bash
-python3 scripts/generate_local_sitemap.py
-```
-
-### Regenerate content files
-```bash
-python3 scripts/generate_content.py
-python3 scripts/generate_tutorials.py
-```
 
 ## License
 
