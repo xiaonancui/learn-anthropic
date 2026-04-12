@@ -46,9 +46,9 @@ learn-anthropic/
 │   ├── marketing/                 # Marketing workflows (1)
 │   ├── hr/                        # Human resources (1)
 │   └── sales/                     # Sales workflows (1)
+├── sitemap.json                   # Combined local sitemap (primary reference)
 ├── data/                          # Raw data
-│   ├── sitemap.json               # anthropic.com sitemap
-│   ├── local-sitemap.json         # Combined local sitemap (all sources)
+│   ├── default-sitemap.json       # anthropic.com sitemap (raw)
 │   └── categories.json            # Category mappings
 └── scripts/                       # Utility scripts
     ├── fetch-sitemap.sh           # Update anthropic.com sitemap

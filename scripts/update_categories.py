@@ -13,7 +13,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 
-SITEMAP_PATH = os.path.join(DATA_DIR, "sitemap.json")
+SITEMAP_PATH = os.path.join(PROJECT_DIR, "sitemap.json")
 CATEGORIES_PATH = os.path.join(DATA_DIR, "categories.json")
 
 

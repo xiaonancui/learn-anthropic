@@ -19,8 +19,8 @@ PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 TUTORIALS_DIR = os.path.join(PROJECT_DIR, "tutorials")
 
-DEFAULT_SITEMAP = os.path.join(DATA_DIR, "sitemap.json")
-LOCAL_SITEMAP = os.path.join(DATA_DIR, "local-sitemap.json")
+DEFAULT_SITEMAP = os.path.join(DATA_DIR, "default-sitemap.json")
+LOCAL_SITEMAP = os.path.join(PROJECT_DIR, "sitemap.json")
 
 
 def load_json(path):

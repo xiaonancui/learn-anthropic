@@ -1,5 +1,5 @@
 #!/bin/bash
-# Fetch the latest sitemap from anthropic.com and update data/sitemap.json
+# Fetch the latest sitemap from anthropic.com and update data/default-sitemap.json
 # Usage: bash scripts/fetch-sitemap.sh
 
 set -e
@@ -38,11 +38,12 @@ result = {
     'pages': entries
 }
 
-with open('$DATA_DIR/sitemap.json', 'w') as f:
+with open('$DATA_DIR/default-sitemap.json', 'w') as f:
     json.dump(result, f, indent=2)
 
 print(f'Updated {len(entries)} pages across {len(sections)} sections.')
 print('Sections:', ', '.join(f'{k}({v})' for k, v in sorted(sections.items(), key=lambda x: -x[1])))
 "
 
-echo "Done. data/sitemap.json updated."
+echo "Done. data/default-sitemap.json updated."
+echo "Run 'python3 scripts/generate_local_sitemap.py' to regenerate the root sitemap.json."

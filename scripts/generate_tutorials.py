@@ -670,7 +670,9 @@ def main():
         product = tutorial["product"]
         url = f"{BASE_URL}/{slug}"
 
-        filepath = os.path.join(TUTORIALS_DIR, f"{slug}.md")
+        category_dir = os.path.join(TUTORIALS_DIR, category.lower().replace(" ", "-"))
+        os.makedirs(category_dir, exist_ok=True)
+        filepath = os.path.join(category_dir, f"{slug}.md")
 
         if os.path.exists(filepath):
             skipped += 1
@@ -678,7 +680,7 @@ def main():
 
         create_markdown(filepath, title, url, category, product)
         created += 1
-        print(f"  Created: tutorials/{slug}.md")
+        print(f"  Created: tutorials/{category.lower().replace(' ', '-')}/{slug}.md")
 
     print(f"\nDone!")
     print(f"  Created: {created}")
