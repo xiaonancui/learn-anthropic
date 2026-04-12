@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-12T11:18:55.405371Z",
-  "total": 490,
+  "generated_at": "2026-04-12T12:22:16.950404Z",
+  "total": 506,
   "sources": {
     "anthropic.com": 390,
-    "claude.com": 100
+    "claude.com": 116
   },
   "sections": {
     "anthropic.com/about-anthropic-interviewer": 1,
@@ -35,6 +35,7 @@
     "anthropic.com/transparency": 1,
     "anthropic.com/unsubscribe": 1,
     "anthropic.com/vc-partner-program-official-terms": 1,
+    "claude.com/courses": 16,
     "claude.com/tutorials": 100
   },
   "pages": [
@@ -3075,6 +3076,118 @@
       "url": "https://claude.com/resources/tutorials/sharing-skills",
       "path": "tutorials/engineering/sharing-skills",
       "section": "tutorials",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/claude-101",
+      "path": "courses/professional/claude-101",
+      "section": "courses",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/ai-fluency-framework-foundations",
+      "path": "courses/professional/ai-fluency-framework-foundations",
+      "section": "courses",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/introduction-to-claude-cowork",
+      "path": "courses/professional/introduction-to-claude-cowork",
+      "section": "courses",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/ai-fluency-for-students",
+      "path": "courses/education/ai-fluency-for-students",
+      "section": "courses",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/teaching-ai-fluency",
+      "path": "courses/education/teaching-ai-fluency",
+      "section": "courses",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/ai-fluency-for-educators",
+      "path": "courses/education/ai-fluency-for-educators",
+      "section": "courses",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/ai-fluency-nonprofits",
+      "path": "courses/nonprofits/ai-fluency-nonprofits",
+      "section": "courses",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/building-with-claude-api",
+      "path": "courses/engineering/building-with-claude-api",
+      "section": "courses",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/introduction-to-subagents",
+      "path": "courses/engineering/introduction-to-subagents",
+      "section": "courses",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/intro-to-mcp",
+      "path": "courses/engineering/intro-to-mcp",
+      "section": "courses",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/mcp-advanced-topics",
+      "path": "courses/engineering/mcp-advanced-topics",
+      "section": "courses",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/claude-google-vertex-ai",
+      "path": "courses/engineering/claude-google-vertex-ai",
+      "section": "courses",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/claude-amazon-bedrock",
+      "path": "courses/engineering/claude-amazon-bedrock",
+      "section": "courses",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/claude-code-101",
+      "path": "courses/engineering/claude-code-101",
+      "section": "courses",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/claude-code-in-action",
+      "path": "courses/engineering/claude-code-in-action",
+      "section": "courses",
+      "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/courses/introduction-to-agent-skills",
+      "path": "courses/engineering/introduction-to-agent-skills",
+      "section": "courses",
       "category": "engineering",
       "source": "claude.com"
     }
