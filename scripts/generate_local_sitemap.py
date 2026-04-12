@@ -19,6 +19,7 @@ PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 TUTORIALS_DIR = os.path.join(PROJECT_DIR, "tutorials")
 COURSES_DIR = os.path.join(PROJECT_DIR, "courses")
+USE_CASES_DIR = os.path.join(PROJECT_DIR, "use-cases")
 
 DEFAULT_SITEMAP = os.path.join(DATA_DIR, "default-sitemap.json")
 LOCAL_SITEMAP = os.path.join(PROJECT_DIR, "sitemap.json")
@@ -137,6 +138,45 @@ def get_course_pages():
     return pages
 
 
+def get_use_case_pages():
+    """Extract use case pages from the use-cases/ folder."""
+    pages = []
+
+    if not os.path.exists(USE_CASES_DIR):
+        print(f"  Warning: {USE_CASES_DIR} not found")
+        return pages
+
+    for category in os.listdir(USE_CASES_DIR):
+        category_dir = os.path.join(USE_CASES_DIR, category)
+        if not os.path.isdir(category_dir):
+            continue
+
+        for filename in os.listdir(category_dir):
+            if not filename.endswith(".md"):
+                continue
+
+            filepath = os.path.join(category_dir, filename)
+            slug = filename[:-3]  # Remove .md extension
+
+            # Try to extract URL from frontmatter
+            url = extract_url_from_file(filepath)
+            if not url:
+                # Construct URL from slug
+                url = f"https://claude.com/resources/use-cases/{slug}"
+
+            pages.append(
+                {
+                    "url": url,
+                    "path": f"use-cases/{category}/{slug}",
+                    "section": "use-cases",
+                    "category": category,
+                    "source": "claude.com",
+                }
+            )
+
+    return pages
+
+
 def extract_url_from_file(filepath):
     """Extract URL from YAML frontmatter."""
     try:
@@ -184,6 +224,11 @@ def main():
     print(f"    Found {len(course_pages)} course pages")
     all_pages.extend(course_pages)
 
+    print("  Loading claude.com use case pages...")
+    use_case_pages = get_use_case_pages()
+    print(f"    Found {len(use_case_pages)} use case pages")
+    all_pages.extend(use_case_pages)
+
     # Build section statistics
     sections = build_sections(all_pages)
 
@@ -194,7 +239,7 @@ def main():
         "total": len(all_pages),
         "sources": {
             "anthropic.com": len(anthropic_pages),
-            "claude.com": len(tutorial_pages) + len(course_pages),
+            "claude.com": len(tutorial_pages) + len(course_pages) + len(use_case_pages),
         },
         "sections": sections,
         "pages": all_pages,
@@ -208,6 +253,7 @@ def main():
     print(f"  Anthropic.com: {len(anthropic_pages)}")
     print(f"  Claude.com tutorials: {len(tutorial_pages)}")
     print(f"  Claude.com courses: {len(course_pages)}")
+    print(f"  Claude.com use cases: {len(use_case_pages)}")
     print(f"\nSections:")
     for section, count in sections.items():
         print(f"    {section}: {count}")

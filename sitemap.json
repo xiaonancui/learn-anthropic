@@ -1,10 +1,10 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-12T12:22:16.950404Z",
-  "total": 506,
+  "generated_at": "2026-04-12T13:58:14.876295Z",
+  "total": 592,
   "sources": {
     "anthropic.com": 390,
-    "claude.com": 116
+    "claude.com": 202
   },
   "sections": {
     "anthropic.com/about-anthropic-interviewer": 1,
@@ -36,7 +36,8 @@
     "anthropic.com/unsubscribe": 1,
     "anthropic.com/vc-partner-program-official-terms": 1,
     "claude.com/courses": 16,
-    "claude.com/tutorials": 100
+    "claude.com/tutorials": 100,
+    "claude.com/use-cases": 86
   },
   "pages": [
     {
@@ -3189,6 +3190,608 @@
       "path": "courses/engineering/introduction-to-agent-skills",
       "section": "courses",
       "category": "engineering",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/transit-research",
+      "path": "use-cases/research/transit-research",
+      "section": "use-cases",
+      "category": "research",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/verify-statistics",
+      "path": "use-cases/research/verify-statistics",
+      "section": "use-cases",
+      "category": "research",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/plan-lit-review",
+      "path": "use-cases/research/plan-lit-review",
+      "section": "use-cases",
+      "category": "research",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/feedback-themes",
+      "path": "use-cases/research/feedback-themes",
+      "section": "use-cases",
+      "category": "research",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/travel-itinerary",
+      "path": "use-cases/personal/travel-itinerary",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/debate-practice",
+      "path": "use-cases/personal/debate-practice",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/design-plans",
+      "path": "use-cases/personal/design-plans",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/text-to-notes",
+      "path": "use-cases/personal/text-to-notes",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/custom-webpage",
+      "path": "use-cases/personal/custom-webpage",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/design-skills",
+      "path": "use-cases/personal/design-skills",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/stress-test-finance",
+      "path": "use-cases/personal/stress-test-finance",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/gift-giving",
+      "path": "use-cases/personal/gift-giving",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/map-understanding",
+      "path": "use-cases/personal/map-understanding",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/compare-destinations",
+      "path": "use-cases/personal/compare-destinations",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/interactive-diagrams",
+      "path": "use-cases/personal/interactive-diagrams",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/bucket-list",
+      "path": "use-cases/personal/bucket-list",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/foraging-guide",
+      "path": "use-cases/personal/foraging-guide",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/digital-recipes",
+      "path": "use-cases/personal/digital-recipes",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/health-notes",
+      "path": "use-cases/personal/health-notes",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/organize-desktop",
+      "path": "use-cases/personal/organize-desktop",
+      "section": "use-cases",
+      "category": "personal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/brand-guidelines-skill",
+      "path": "use-cases/professional/brand-guidelines-skill",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/explore-claude",
+      "path": "use-cases/professional/explore-claude",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/status-reports",
+      "path": "use-cases/professional/status-reports",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/interactive-pdf",
+      "path": "use-cases/professional/interactive-pdf",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/email-event-tracker",
+      "path": "use-cases/professional/email-event-tracker",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/create-brand-assets",
+      "path": "use-cases/professional/create-brand-assets",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/size-market",
+      "path": "use-cases/professional/size-market",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/build-analysis",
+      "path": "use-cases/professional/build-analysis",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/week-prep",
+      "path": "use-cases/professional/week-prep",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/source-insights-deck",
+      "path": "use-cases/professional/source-insights-deck",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/company-newsletter",
+      "path": "use-cases/professional/company-newsletter",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/evaluate-company",
+      "path": "use-cases/professional/evaluate-company",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/process-flowchart",
+      "path": "use-cases/professional/process-flowchart",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/compare-options",
+      "path": "use-cases/professional/compare-options",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/user-feedback-patterns",
+      "path": "use-cases/professional/user-feedback-patterns",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/daily-briefing",
+      "path": "use-cases/professional/daily-briefing",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/process-vendors",
+      "path": "use-cases/professional/process-vendors",
+      "section": "use-cases",
+      "category": "professional",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/sales-reports",
+      "path": "use-cases/sales/sales-reports",
+      "section": "use-cases",
+      "category": "sales",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/prep-sales-deals",
+      "path": "use-cases/sales/prep-sales-deals",
+      "section": "use-cases",
+      "category": "sales",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/sales-proposal",
+      "path": "use-cases/sales/sales-proposal",
+      "section": "use-cases",
+      "category": "sales",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/battle-cards",
+      "path": "use-cases/sales/battle-cards",
+      "section": "use-cases",
+      "category": "sales",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/grant-options",
+      "path": "use-cases/education/grant-options",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/plan-syllabus",
+      "path": "use-cases/education/plan-syllabus",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/chart-data",
+      "path": "use-cases/education/chart-data",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/research-to-presentations",
+      "path": "use-cases/education/research-to-presentations",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/visualize-mechanism",
+      "path": "use-cases/education/visualize-mechanism",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/map-lit-review",
+      "path": "use-cases/education/map-lit-review",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/course-materials",
+      "path": "use-cases/education/course-materials",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/apply-formula",
+      "path": "use-cases/education/apply-formula",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/career-path",
+      "path": "use-cases/education/career-path",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/case-interviews",
+      "path": "use-cases/education/case-interviews",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/whiteboard-lesson",
+      "path": "use-cases/education/whiteboard-lesson",
+      "section": "use-cases",
+      "category": "education",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/genomic-analysis",
+      "path": "use-cases/life-sciences/genomic-analysis",
+      "section": "use-cases",
+      "category": "life-sciences",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/preclinical-analysis",
+      "path": "use-cases/life-sciences/preclinical-analysis",
+      "section": "use-cases",
+      "category": "life-sciences",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/workflow-planner",
+      "path": "use-cases/nonprofits/workflow-planner",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/grant-proposal-line",
+      "path": "use-cases/nonprofits/grant-proposal-line",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/campaign-goal",
+      "path": "use-cases/nonprofits/campaign-goal",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/budget-scenarios",
+      "path": "use-cases/nonprofits/budget-scenarios",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/ai-policy",
+      "path": "use-cases/nonprofits/ai-policy",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/visualize-program-data",
+      "path": "use-cases/nonprofits/visualize-program-data",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/program-toolkit",
+      "path": "use-cases/nonprofits/program-toolkit",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/fundraising-performance",
+      "path": "use-cases/nonprofits/fundraising-performance",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/volunteer-management",
+      "path": "use-cases/nonprofits/volunteer-management",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/donor-retention",
+      "path": "use-cases/nonprofits/donor-retention",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/theory-of-change",
+      "path": "use-cases/nonprofits/theory-of-change",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/impact-report",
+      "path": "use-cases/nonprofits/impact-report",
+      "section": "use-cases",
+      "category": "nonprofits",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/onboarding-guides",
+      "path": "use-cases/hr/onboarding-guides",
+      "section": "use-cases",
+      "category": "hr",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/campaign-performance",
+      "path": "use-cases/marketing/campaign-performance",
+      "section": "use-cases",
+      "category": "marketing",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/adapt-content",
+      "path": "use-cases/marketing/adapt-content",
+      "section": "use-cases",
+      "category": "marketing",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/customer-personas",
+      "path": "use-cases/marketing/customer-personas",
+      "section": "use-cases",
+      "category": "marketing",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/understand-spreadsheet",
+      "path": "use-cases/finance/understand-spreadsheet",
+      "section": "use-cases",
+      "category": "finance",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/build-financial-models",
+      "path": "use-cases/finance/build-financial-models",
+      "section": "use-cases",
+      "category": "finance",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/investment-memos",
+      "path": "use-cases/finance/investment-memos",
+      "section": "use-cases",
+      "category": "finance",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/business-finances",
+      "path": "use-cases/finance/business-finances",
+      "section": "use-cases",
+      "category": "finance",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/reconcile-transactions",
+      "path": "use-cases/finance/reconcile-transactions",
+      "section": "use-cases",
+      "category": "finance",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/update-financial-model",
+      "path": "use-cases/finance/update-financial-model",
+      "section": "use-cases",
+      "category": "finance",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/compliance-audit",
+      "path": "use-cases/legal/compliance-audit",
+      "section": "use-cases",
+      "category": "legal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/contract-negotiation",
+      "path": "use-cases/legal/contract-negotiation",
+      "section": "use-cases",
+      "category": "legal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/discovery-timelines",
+      "path": "use-cases/legal/discovery-timelines",
+      "section": "use-cases",
+      "category": "legal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/legal-projects",
+      "path": "use-cases/legal/legal-projects",
+      "section": "use-cases",
+      "category": "legal",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/organize-drive",
+      "path": "use-cases/claude-in-chrome/organize-drive",
+      "section": "use-cases",
+      "category": "claude-in-chrome",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/compare-products",
+      "path": "use-cases/claude-in-chrome/compare-products",
+      "section": "use-cases",
+      "category": "claude-in-chrome",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/log-sales-calls",
+      "path": "use-cases/claude-in-chrome/log-sales-calls",
+      "section": "use-cases",
+      "category": "claude-in-chrome",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/clean-inbox",
+      "path": "use-cases/claude-in-chrome/clean-inbox",
+      "section": "use-cases",
+      "category": "claude-in-chrome",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/plan-calendar",
+      "path": "use-cases/claude-in-chrome/plan-calendar",
+      "section": "use-cases",
+      "category": "claude-in-chrome",
+      "source": "claude.com"
+    },
+    {
+      "url": "https://claude.com/resources/use-cases/pull-metrics",
+      "path": "use-cases/claude-in-chrome/pull-metrics",
+      "section": "use-cases",
+      "category": "claude-in-chrome",
       "source": "claude.com"
     }
   ]
