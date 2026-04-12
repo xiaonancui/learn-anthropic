@@ -79,22 +79,48 @@ learn-anthropic/
 
 ## Learning Path
 
-### Getting Started (1–2 days)
-1. [The Claude Constitution](https://www.anthropic.com/constitution) — Understand Anthropic's core philosophy
-2. [Core Views on AI Safety](https://www.anthropic.com/news/core-views-on-ai-safety) — How they think about AI risk
-3. [Claude 101](courses/professional/claude-101.md) — Get started with Claude
+### Foundation Track (1–2 days)
+For new users wanting to understand Claude and Anthropic's approach.
 
-### Intermediate (1–2 weeks)
-4. [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — Agent design patterns
-5. [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) — Alignment methodology
-6. [Claude Code 101](courses/engineering/claude-code-101.md) — Learn Claude Code
-7. [Getting Started with Claude.ai](tutorials/professional/getting-started-claude-ai.md) — Hands-on tutorial
+1. [Claude 101](courses/professional/claude-101.md) — Get started with Claude basics
+2. [The Claude Constitution](https://www.anthropic.com/constitution) — Anthropic's core philosophy
+3. [Core Views on AI Safety](https://www.anthropic.com/news/core-views-on-ai-safety) — How Anthropic thinks about AI risk
+4. [AI Fluency: Framework & Foundations](courses/professional/ai-fluency-framework-foundations.md) — 14-lesson foundations course
 
-### Deep Dive (ongoing)
-8. [Interpretability Series](research/interpretability/) — From Transformer circuits to monosemanticity
-9. [Agent Engineering Series](engineering/agents.md) — From tool design to long-running architectures
-10. [Safety & Red-Teaming Series](news/safety/) — From detection to defense
-11. [Building with the Claude API](courses/engineering/building-with-claude-api.md) — 84-lesson deep dive
+### Developer Track (1–2 weeks)
+For engineers building with Claude.
+
+5. [Claude Code 101](courses/engineering/claude-code-101.md) — 12-lesson Claude Code fundamentals
+6. [Claude Code in Action](courses/engineering/claude-code-in-action.md) — Hands-on practice
+7. [Introduction to subagents](courses/engineering/introduction-to-subagents.md) — Build subagent workflows
+8. [Introduction to agent skills](courses/engineering/introduction-to-agent-skills.md) — Create custom skills
+9. [Building with the Claude API](courses/engineering/building-with-claude-api.md) — 84-lesson API deep dive
+
+### Integration Track (1 week)
+For teams integrating Claude into platforms.
+
+10. [Introduction to Model Context Protocol](courses/engineering/intro-to-mcp.md) — MCP fundamentals
+11. [Model Context Protocol: Advanced Topics](courses/engineering/mcp-advanced-topics.md) — Advanced MCP
+12. [Claude with Amazon Bedrock](courses/engineering/claude-amazon-bedrock.md) — AWS deployment
+13. [Claude with Google Cloud's Vertex AI](courses/engineering/claude-google-vertex-ai.md) — GCP deployment
+
+### Research Track (ongoing)
+For those interested in AI safety and interpretability research.
+
+14. [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) — Alignment methodology
+15. [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — Agent design patterns
+16. [Interpretability Series](research/interpretability/) — Transformer circuits to monosemanticity
+17. [Safety & Red-Teaming Series](news/safety/) — Detection to defense
+
+### Specialized Paths
+
+**Finance:** [Finance Tutorials](tutorials/finance/) → [Finance Use Cases](use-cases/finance/)
+
+**Life Sciences:** [Life Sciences Tutorials](tutorials/life-sciences/) → [Life Sciences Use Cases](use-cases/life-sciences/)
+
+**Nonprofits:** [AI Fluency for Nonprofits](courses/nonprofits/ai-fluency-nonprofits.md) → [Nonprofit Use Cases](use-cases/nonprofits/)
+
+**Education:** [AI Fluency for Educators](courses/education/ai-fluency-for-educators.md) → [Education Use Cases](use-cases/education/)
 
 ## Core Concepts Index
 
