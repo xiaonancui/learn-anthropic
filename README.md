@@ -2,11 +2,11 @@
 
 > A structured, community-driven guide to everything Anthropic publishes.
 
-**Current content:** 111 research papers · 23 engineering blogs · 198 news announcements · 16 legal documents · 9 events — **390 pages** total. Last updated 2026-04-11.
+**Current content:** 111 research papers · 23 engineering blogs · 198 news announcements · 100 tutorials · 16 legal documents · 9 events — **490 pages** total. Last updated 2026-04-12.
 
 ## Why This Exists
 
-Anthropic publishes high-quality content, but it's scattered across their website. Research papers, engineering blogs, and news announcements are mixed together with no learning path, no prioritization, and no connections between them. You might read a paper without knowing how it applies in practice.
+Anthropic publishes high-quality content, but it's scattered across their websites (anthropic.com and claude.com). Research papers, engineering blogs, news announcements, and tutorials are mixed together with no learning path, no prioritization, and no connections between them. You might read a paper without knowing how it applies in practice.
 
 This project organizes their content into a more accessible, navigable structure.
 
@@ -34,12 +34,36 @@ learn-anthropic/
 │   ├── education/                 # Education
 │   ├── enterprise/                # Enterprise & industry
 │   └── funding/                   # Funding & expansion
+├── tutorials/                     # Claude tutorials from claude.com (100)
+│   ├── professional/              # General professional use (31)
+│   ├── finance/                   # Financial services workflows (20)
+│   ├── life-sciences/             # Life sciences & biotech (20)
+│   ├── engineering/               # Engineering & development (10)
+│   ├── healthcare/                # Healthcare workflows (7)
+│   ├── nonprofits/                # Nonprofit organizations (6)
+│   ├── ai-fluency/                # AI Fluency guides (2)
+│   ├── education/                 # Education workflows (1)
+│   ├── marketing/                 # Marketing workflows (1)
+│   ├── hr/                        # Human resources (1)
+│   └── sales/                     # Sales workflows (1)
 ├── data/                          # Raw data
-│   ├── sitemap.json               # Full sitemap (with lastmod)
+│   ├── sitemap.json               # anthropic.com sitemap
+│   ├── local-sitemap.json         # Combined local sitemap (all sources)
 │   └── categories.json            # Category mappings
 └── scripts/                       # Utility scripts
-    └── fetch-sitemap.sh           # Update sitemap
+    ├── fetch-sitemap.sh           # Update anthropic.com sitemap
+    ├── generate_content.py        # Generate research/engineering markdown files
+    ├── generate_tutorials.py      # Generate tutorial markdown files
+    └── generate_local_sitemap.py  # Generate combined local sitemap
 ```
+
+## Sources
+
+| Source | Pages | Description |
+|--------|-------|-------------|
+| anthropic.com | 390 | Research, engineering, news, legal, events |
+| claude.com | 100 | Tutorials and how-to guides |
+| **Total** | **490** | |
 
 ## Learning Path
 
@@ -52,11 +76,13 @@ learn-anthropic/
 4. [Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — Agent design patterns
 5. [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback) — Alignment methodology
 6. [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) — Engineering in practice
+7. [Getting Started with Claude.ai](tutorials/professional/getting-started-claude-ai.md) — Hands-on tutorial
 
 ### Deep Dive (ongoing)
-7. [Interpretability Series](research/interpretability/) — From Transformer circuits to monosemanticity
-8. [Agent Engineering Series](engineering/agents.md) — From tool design to long-running architectures
-9. [Safety & Red-Teaming Series](news/safety/) — From detection to defense
+8. [Interpretability Series](research/interpretability/) — From Transformer circuits to monosemanticity
+9. [Agent Engineering Series](engineering/agents.md) — From tool design to long-running architectures
+10. [Safety & Red-Teaming Series](news/safety/) — From detection to defense
+11. [Finance Tutorials](tutorials/finance/) — Financial analysis workflows
 
 ## Core Concepts Index
 
@@ -76,15 +102,26 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 **Where we need the most help right now:**
 - Adding one-line summaries to research papers
+- Adding key points to tutorials
 - Adding technical keyword tags to engineering posts
 - Finding pages missing from the sitemap
 
 ## Updating
 
-Run `scripts/fetch-sitemap.sh` to fetch the latest page list:
-
+### Update anthropic.com sitemap
 ```bash
 bash scripts/fetch-sitemap.sh
+```
+
+### Regenerate local sitemap (combines all sources)
+```bash
+python3 scripts/generate_local_sitemap.py
+```
+
+### Regenerate content files
+```bash
+python3 scripts/generate_content.py
+python3 scripts/generate_tutorials.py
 ```
 
 ## License
