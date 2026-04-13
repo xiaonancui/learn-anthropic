@@ -1,18 +1,22 @@
 ---
-title: A Mathematical Framework For Transformer Circuits
+title: "A Mathematical Framework for Transformer Circuits"
 url: https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits
-date:
+date: 2021-12-22
 tags: ["research", "interpretability"]
 ---
 
 ## One-Liner
 
-TODO: Add one-line summary.
+Develops a mathematical framework for understanding transformer architectures as composed circuits with interpretable computational paths.
 
 ## Key Points
 
-- TODO: Add key points
+- Establishes a formal mathematical framework for analyzing transformer computations
+- Views transformers as circuits composed of interpretable computational paths
+- Foundational work for mechanistic interpretability research
+- Introduced key concepts used in subsequent Anthropic interpretability papers
 
 ## Related
 
-- [A Mathematical Framework For Transformer Circuits](https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits)
+- [A Mathematical Framework for Transformer Circuits](https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits)
+- [Read Paper](https://transformer-circuits.pub/2021/framework/index.html)

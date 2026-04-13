@@ -3,16 +3,34 @@ title: Circuits Updates May 2023
 url: https://www.anthropic.com/research/circuits-updates-may-2023
 date:
 tags: ["research", "circuits_updates"]
+source: "https://www.anthropic.com/research/circuits-updates-may-2023"
+language: "en"
+description: "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems."
+word_count: 142
 ---
 
-## One-Liner
+InterpretabilityResearch
 
-TODO: Add one-line summary.
+[Read Paper](https://transformer-circuits.pub/2023/may-update/index.html)
 
-## Key Points
+## Abstract
 
-- TODO: Add key points
+We report a number of developing ideas on the Anthropic interpretability team, which might be of interest to researchers working actively in this space. Some of these are emerging strands of research where we expect to publish more on in the coming months. Others are minor points we wish to share, since we're unlikely to ever write a paper about them.
 
-## Related
+## Related content
 
-- [Circuits Updates May 2023](https://www.anthropic.com/research/circuits-updates-may-2023)
+### Trustworthy agents in practice
+
+AI "agents" represent the latest major shift in how people and organizations are using AI. Here, we explain how they work and how we ensure they're trustworthy.
+
+[Read more](https://www.anthropic.com/research/trustworthy-agents)
+
+### Emotion concepts and their function in a large language model
+
+All modern language models sometimes act like they have emotions. What's behind these behaviors? Our interpretability team investigates.
+
+[Read more](https://www.anthropic.com/research/emotion-concepts-function)
+
+### How Australia Uses Claude: Findings from the Anthropic Economic Index
+
+[Read more](https://www.anthropic.com/research/how-australia-uses-claude)

@@ -1,18 +1,24 @@
 ---
-title: Training A Helpful And Harmless Assistant With Reinforcement Learning From Human Feedback
+title: "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback"
 url: https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback
-date:
+date: 2022-04
 tags: ["research", "alignment"]
 ---
 
 ## One-Liner
 
-TODO: Add one-line summary.
+Applies RLHF to finetune language models as helpful and harmless assistants, improving performance on almost all NLP evaluations while remaining compatible with specialized skills.
 
 ## Key Points
 
-- TODO: Add key points
+- Uses preference modeling and RLHF to finetune language models as helpful and harmless assistants
+- Alignment training improves performance on almost all NLP evaluations
+- Compatible with training for specialized skills like Python coding and summarization
+- Explores iterated online mode of training with weekly updates using fresh human feedback
+- Identifies roughly linear relation between RL reward and square root of KL divergence
 
 ## Related
 
-- [Training A Helpful And Harmless Assistant With Reinforcement Learning From Human Feedback](https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback)
+- [Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback](https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback)
+- [Read Paper (arXiv)](https://arxiv.org/abs/2204.05862)
+- [Constitutional AI](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback)
